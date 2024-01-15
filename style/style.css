@@ -1,0 +1,273 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap');
+
+
+
+.nav-section1{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+.logo-color{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.nav-title{
+    display: flex;
+    
+    gap: 20px;
+}
+
+.nav-title img{
+    width: 98px;
+}
+
+.nav-title h1{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+   
+}
+
+.nav-menu li{
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+}
+.navigation-section2{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    
+     }
+
+.navigation-section2 h1{
+
+        color: #FFF;
+        font-family: 'Mulish', sans-serif;
+        font-size: 64px;
+        font-weight: 800;
+        text-align: center;
+     }
+
+.navigation-section2 p{
+
+        color: #FFF;
+
+       text-align: center;
+       font-family: 'Mulish', sans-serif;
+       font-size: 16px;
+       
+       font-weight: 400;
+     }
+.form1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+     }
+
+.form-type{
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FFF;
+        border: 0;
+        outline: 0;
+     }
+     
+.form-type, input{
+    color: rgba(19, 19, 24, 0.50);
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    
+    font-weight: 400;
+    
+     }
+
+#travel-type ,span{
+        
+    color: rgba(19, 19, 24, 0.50);
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    
+    font-weight: 400;
+    
+     
+ 
+     }
+
+     #travel-type{
+
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FFF;
+        border: 0;
+        outline: 0;
+       
+
+     }
+
+.btn-primary{
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+        border: 0;
+        color: white;
+        outline: 0;
+
+        color: #FFF;
+
+       text-align: center;
+       font-family: 'Mulish', sans-serif;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 700;
+       
+
+
+     }
+
+.nav-section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    gap: 20px;
+    
+ 
+}
+.nav-section3 .section3-content{
+    width: 600px;
+
+    
+}
+
+.nav-section3 h1{
+    color: #131318;
+    font-family: 'Mulish', sans-serif;
+    
+    
+    font-size: 40px;
+    
+    font-weight: 800;
+ 
+}
+
+.nav-section3 .para-start{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+}
+
+.nav-section3  .para-list{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    
+
+}
+
+.nav-section3 button{
+    width: 174px;
+    height: 52px;         
+    border-radius: 8px;
+    background: #FF5400;          
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+
+    font-size: 20px;
+    border: 0;
+    font-weight: 800;
+   
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .nav-section1{
+            
+            flex-direction: column;
+          
+
+    }
+    .nav-section1 img{
+      text-align: center;
+   
+    }
+
+    .nav-menu ul{
+        flex-direction: column;
+    }
+    .navigation-section2{
+        max-width: 600px;
+    }
+    .navigation-section2 h1,p{
+
+        font-size:x-large;
+       
+
+    }
+    
+    
+    .form1{
+        flex-direction: column;
+       
+    }
+
+    .nav-section3{
+        flex-direction: column;
+    }
+    .nav-section3 .section3-content{
+        width: 400px;
+    }
+
+    .section3-image img{
+       
+     width: 400px;
+     height: 342px;
+    }
+    
+
+    
+ }  
+
