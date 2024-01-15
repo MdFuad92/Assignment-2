@@ -180,7 +180,7 @@
 .nav-section3 h1{
     color: #131318;
     font-family: 'Mulish', sans-serif;
-    
+   
     
     font-size: 40px;
     
@@ -220,6 +220,241 @@
    
 }
 
+.Section1-align{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sec1-content >h1{
+
+    color: #131318;
+    text-align: center;
+    
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+     
+}
+
+.sec1-content >p{
+    
+    color: rgba(19, 19, 24, 0.70);
+
+    text-align: center;
+    
+    font-size: 16px;
+    
+    font-weight: 400;
+    
+    font-family: 'Mulish', sans-serif;
+    margin-bottom: 50px;
+    
+    
+
+}
+
+.img-sec1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+  
+.Maldives{
+    background: url("../Images/Rectangle\ 5.png");
+    width: 573px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Indonesia{
+
+    background: url("../Images/Rectangle\ 8.png");
+    width: 573px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-sec2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.Srilanka{
+    background: url("../Images/Rectangle\ 6.png");
+   
+    width: 374px;
+    height: 286px;
+    background-repeat: no-repeat;
+  
+}
+
+.North-america{
+    
+    background: url("../Images/Rectangle\ 7.png");
+
+    width: 474px;
+    height: 286px;
+
+    background-repeat: no-repeat;
+    
+    
+}
+
+.Kashmir{
+
+    background: url("../Images/Rectangle\ 9.png");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+
+}
+
+.img-sec3{
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.Bangladesh{
+    background: url("../Images/Rectangle\ 11.png");
+   
+    width: 473px;
+    height: 300px;
+    background-repeat: no-repeat;
+  
+}
+
+.Bandorban{
+
+    background: url("../Images/Rectangle\ 10.png");
+    width: 500px;
+    height: 300px;
+    border-radius:15px ;
+    background-repeat: no-repeat;
+   
+
+}
+
+.Maldives h1{
+    display: flex;
+    justify-content: center;
+    padding:100px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+   
+    font-weight: 800;
+   
+   
+}
+
+.Indonesia h1{
+
+    display: flex;
+    justify-content: center;
+    padding:100px; 
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+   
+    font-weight: 800;
+   
+
+
+}
+
+.Srilanka h1{
+
+    display: flex;
+    justify-content: center;
+    padding:100px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+   
+    font-weight: 800;
+   
+
+}
+
+.North-america h1{ 
+
+    display: flex;
+    justify-content: center;
+    padding:100px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+   
+    font-weight: 800;
+   
+
+
+}
+
+.Kashmir h1{
+
+    display: flex;
+    justify-content: center;
+    padding:100px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+   
+    font-weight: 800;
+   
+}
+
+.Bangladesh h1{
+
+    display: flex;
+    justify-content: center;
+    padding:100px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+   
+    font-weight: 800;
+   
+}
+
+.Bandorban h1{
+
+    display: flex;
+    justify-content: center;
+    padding:100px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 28px;
+   
+    font-weight: 800;
+   
+}
+
+
 
 
 @media screen and (max-width:600px) {
@@ -257,6 +492,18 @@
     .nav-section3{
         flex-direction: column;
     }
+
+    .nav-section3 h1{
+        text-align: center;
+    }
+
+    .nav-section3 .para-start{
+        text-align: center;
+    }
+
+    .nav-section3 .para-list{
+        text-align: center;
+    }
     .nav-section3 .section3-content{
         width: 400px;
     }
@@ -266,6 +513,58 @@
      width: 400px;
      height: 342px;
     }
+   .Section1-align{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .sec1-content h1{
+    font-size: xx-large;
+   }
+
+   
+   
+
+ 
+   .image-sec-content{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   }
+  
+
+  
+   .img-sec1,.img-sec2,.img-sec3{
+    
+    display: flex;
+    
+   
+    flex-direction: column;
+  
+    
+    align-items: center;
+    justify-content:center;
+    
+  
+    
+   
+    
+   
+   
+   
+   
+    
+    
+   }
+
+   
+
+   
     
 
     
