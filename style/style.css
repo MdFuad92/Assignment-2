@@ -603,13 +603,15 @@
      width: 400px;
      height: 342px;
     }
-   .Section1-align{
+   
+    .Section1-align{
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     
    }
+   
    .sec1-content h1{
     font-size: xx-large;
    }
@@ -659,17 +661,5 @@
   }
   
   
-  
-
-
-
-  
-  
-  
-
-   
-    
-
-    
- }  
+}  
 
