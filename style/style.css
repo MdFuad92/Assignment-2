@@ -94,6 +94,74 @@
     font-family: 'Mulish', sans-serif;
 }
 
+.aboutsections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+
+}
+
+.about-us{
+    background:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("../Images/mountain.jpg");
+    width: 900px;
+    height: 600px;
+    border-radius: 16px;
+    
+  
+    
+    
+}
+
+.about-us .about-head{
+       
+    color: #FFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.about-us .about-para{
+
+    
+    color: #FFF;
+
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    
+    font-weight: 400;
+
+
+}
+
+.btn-about{
+    display: flex;
+    justify-content: center;
+}
+.about-us .about-btn{
+
+    width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+        border: 0;
+        color: white;
+        outline: 0;
+       
+
+        color: #FFF;
+
+       text-align: center;
+       font-family: 'Mulish', sans-serif;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 700;
+}
+
 .nav-container{
     display: flex;
     justify-content: center;
@@ -195,10 +263,16 @@
        font-size: 16px;
        font-style: normal;
        font-weight: 700;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap:5px;
        
 
 
      }
+
+   
 
 .nav-section3{
     display: flex;
@@ -850,6 +924,7 @@
        
 
     }
+    
     
     
     .form1{
